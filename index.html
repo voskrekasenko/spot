@@ -9,7 +9,7 @@
 	<!-- Included Google Fonts -->
 	<link href="http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic" rel='stylesheet' type='text/css'>
 	<link href="http://fonts.googleapis.com/css?family=Merriweather:400,300,700,900,300italic,400italic,700italic,900italic" rel='stylesheet' type='text/css'>
-	
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
 	
 	<!-- CSS Files comes here -->
 	<link href="css/grid12.css" rel="stylesheet" media="screen">                              	 <!-- Grid System -->
@@ -43,15 +43,12 @@
 	<div class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
 	    <div class="mobile_nav_close_button"><a href="" id="hideRight"><div data-icon="&#xe13f;" class="button_icon close_icon"></div></a></div>
 	    <nav id="mobile_menu_content">
-	    	<a href="#home" >Home</a>
-	        <a href="#more_info" >Features</a>
-	        <a href="#about_video" >Video</a>
-	        <a href="#reviews" >Clients</a>
-	        <a href="#screenshots" >Screenshots</a>
-	        <a href="#pricing" >Pricing</a>
-	        <a href="#team" >Team</a>
-	        <a href="#cta_download" >Download</a>
-	        <a href="#contact" >Contact</a>
+	    	<a href="#home" >Что такое «Т! арр»</a>
+	        <a href="#more_info" >Фишки</a>
+	        <a href="#about_video" >Полки</a>
+	        <a href="#reviews" >Артефакты</a>
+	        <a href="#screenshots" >Организация задач</a>
+	        <a href="#pricing" >Видео</a>
 	    </nav>
 	</div>
 	<!-- //Mobile nav -->
@@ -73,128 +70,61 @@
 		<!-- Fullscreen homepage -->
 		<section class="hero_fullscreen background_solid solid_01 menu_bar-waypoint" data-animate-down="menu_bar-hide" data-animate-up="menu_bar-hide" id="home">
 		<!-- This section class is where you can edit background choice (background_single, background_slider, background_video) you can also enable gradient overlay (gradient_overlay)-->
-		
-
-			<!-- Logo and navigation -->
-		  	<div class="container top_bar" >
-		  		<div class="row">
-		  			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-center home_anim1">
-		  			<img src="images/logo_home.png" alt="logo" class="logo_home"/>
-		  			</div>
-		  		</div>
-			</div>
-			<!-- //Logo and navigation -->
-
+			<!-- Menu bar -->
+				<header id="menu_bar" class="menu_bar">
+					<div class="container">
+						<a href="" class="go_to_home logo_dark logo"><img src="images/logo_dark.png" alt="logo" /></a>
+						<nav class="menu_bar_navigation">
+			  				<ul>
+			  					<li class="visible-lg visible-md"><a href="#more_info" class="go_to_overview" >Что такое «Т! арр»</a></li>
+			  					<li class="visible-lg visible-md"><a href="#about_video" >Фишки</a></li>
+			  					<li class="visible-lg visible-md"><a href="#reviews" >Полки</a></li>
+			  					<li class="visible-lg visible-md"><a href="#screenshots" >Артефакты</a></li>
+			  					<li class="visible-lg visible-md"><a href="#pricing" >Организация задач</a></li>
+			  					<li class="visible-lg visible-md last_li"><a href="#team" >Видео</a></li>
+			  					<div class="hidden-lg hidden-md mobile_nav_open_button "><a href="" id="showRight"><div data-icon="&#xe2f3;" class="button_icon close_icon"></div></a></div>
+			  				</ul>
+			  			</nav>
+					</div>
+				</header>
+			<!-- // Menu bar -->
 
 			<!-- Main content -->
 		  	<div class="container align-center" id="main_content">
 				<div class="content_container row" >
-					<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 home_content">
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 home_content">
 					
-					    <!-- Available Area -->
-						<div class="available_area home_anim2">
-							<h6>Available on:</h6>
-							<ul>
-								<li><img src="images/icon_apple.png" alt=""></li>
-								<li><img src="images/icon_android.png" alt=""></li>
-								<li><img src="images/icon_windows.png" alt=""></li>
-							</ul>
-							<h6>For only $5.99</h6>
-						</div>
 						<!-- //Available Area -->
+						<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 padding_fix top_left_block">
+							<h1 class="slogan home_anim3">Воплощай свои мечты, будь мотивирован с Т! app</h1>
+						    <!-- Available Area -->
+							<div class="available_area home_anim2">
+								<img src="images/ic_clock.png" alt="">
+								<h3>Мобильное приложение для мотивации</h3>
+							</div>
 
-						<h2 class="slogan home_anim3">Spot is the best way to present your app to the world!</h2>
-						
-						<!-- CTA Buttons -->
-						<div class="cta_button_area home_anim4">
-							<div><button class="btn">Purchase Now</button></div>
+							<!-- CTA Buttons -->
+							<div class="cta_button_area home_anim4">
+								<div><button class="want_download">Хочу скачать!</button></div>
+							</div>
 						</div>
+						
 						<!-- //CTA Buttons-->
+						<div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 col-md-offset-5 col-lg-offset-5 padding_fix top_right_block">
+							<img class="img_responsive image_float" src="images/phone-01.png" alt="">
+						</div>
 									
 					</div>
+					
 				</div>			
 			</div>  
 			<!-- //Main content -->
 			
-			
-			<!-- Video Background -->
-			<div id="maximage_video">
-				<video autoplay="autoplay" loop="loop" muted="muted" width="896" height="504">
-				    <source src="video/video.mp4" type="video/mp4" />
-				    <source src="video/video.webm" type="video/webm" />
-				    <source src="video/video.ogv" type="video/ogg" />
-				</video>
-			</div>
-			<!-- //Video Background -->
-			
-			
-			<!-- Slider Background -->
-			<div id="maximage_slider">
-				<img src="images/background_slider_01.jpg" alt=""/>
-				<img src="images/background_slider_02.jpg" alt=""/>
-				<img src="images/background_slider_03.jpg" alt=""/>
-				<img src="images/background_slider_04.jpg" alt=""/>
-			</div>
-			<!-- //Slider Background -->
-			
-			
-			<!-- Single Image Background -->
-			<div id="maximage_single">
-				<img src="images/home_background_01.jpg" alt=""/>
-			</div>
-			<!-- //Single Image Background -->
-			
-			
 		</section>
 		<!-- //Homepage -->
 		
-		<!-- Menu bar -->
-		<header id="menu_bar" class="menu_bar">
-			<div class="container">
-				<a href="" class="go_to_home logo_dark logo"><img src="images/logo_dark.png" alt="logo" /></a>
-				<a href="" class="go_to_home logo_light logo"><img src="images/logo_light.png" alt="logo" /></a>
-				<nav class="menu_bar_navigation">
-	  				<ul>
-	  					<li class="visible-lg visible-md"><a href="#more_info" class="go_to_overview" >Features</a></li>
-	  					<li class="visible-lg visible-md"><a href="#about_video" >Video</a></li>
-	  					<li class="visible-lg visible-md"><a href="#reviews" >Clients</a></li>
-	  					<li class="visible-lg visible-md"><a href="#screenshots" >Screenshots</a></li>
-	  					<li class="visible-lg visible-md"><a href="#pricing" >Pricing</a></li>
-	  					<li class="visible-lg visible-md"><a href="#team" >Team</a></li>
-	  					<li class="visible-lg visible-md"><a href="#cta_download" >Download</a></li>
-	  					<li class="visible-lg visible-md"><a href="#contact" >Contact</a></li>
-	  					<li class="hidden-lg hidden-md"><div class="mobile_nav_open_button "><a href="" id="showRight"><div data-icon="&#xe2f3;" class="button_icon close_icon"></div></a></div></li>
-	  				</ul>
-	  			</nav>
-			</div>
-		</header>
-		<!-- // Menu bar -->
+		
 
-
-		<!-- Logos #################### -->
-		<section id="reviews_logos" class="menu_bar-waypoint subsection background_color2" data-animate-down="menu_bar-show" data-animate-up="menu_bar-hide">
-			<div class="container">
-			
-				<div class="row">
-					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-center">
-						<div class="intro">
-							<h6>They use Spot!</h6>
-						</div>
-					</div>
-				</div>
-				
-				<div class="row">
-					<div class="col-xs-3 col-sm-2 col-md-2 col-lg-2 reviews_logo "><img src="images/reviews_logos/logo1.png" alt=""></div>
-					<div class="col-xs-3 col-sm-2 col-md-2 col-lg-2 reviews_logo "><img src="images/reviews_logos/logo2.png" alt=""></div>
-					<div class="col-xs-3 col-sm-2 col-md-2 col-lg-2 reviews_logo "><img src="images/reviews_logos/logo3.png" alt=""></div>
-					<div class="col-xs-3 col-sm-2 col-md-2 col-lg-2 reviews_logo "><img src="images/reviews_logos/logo4.png" alt=""></div>
-					<div class="col-xs-3 col-sm-2 col-md-2 col-lg-2 col-xs-offset-3 col-sm-offset-0 col-md-offset-0 col-lg-offset-0 reviews_logo "><img src="images/reviews_logos/logo5.png" alt=""></div>
-					<div class="col-xs-3 col-sm-2 col-md-2 col-lg-2 reviews_logo "><img src="images/reviews_logos/logo6.png" alt=""></div>
-				</div>
-					
-			</div>
-		</section>
-		<!-- //Logos-->
 		
 		
 		<!-- More Info #################### -->
@@ -936,10 +866,10 @@
 
 		$el.waypoint( function( direction ) {
 			if( direction === 'down' && animClassDown ) {
-				$head.attr('class', 'menu_bar ' + animClassDown);
+				$head.attr('class', 'menu_bar ');
 			}
 			else if( direction === 'up' && animClassUp ){
-				$head.attr('class', 'menu_bar ' + animClassUp);
+				$head.attr('class', 'menu_bar ');
 			}
 		}, { offset: function() {
 			navbarheight = $("#menu_bar").outerHeight()+1;

@@ -912,12 +912,28 @@ video, object {
 .intro {
 	padding-bottom:1rem;
 	padding-top:1rem;
+	
+	opacity: 1;
 }
 
+.intro h2 {
+	font-size: 35px;
+	font-weight: 700;
+	color: #231F20;
+	line-height: 40px;
+	opacity: 1;
+}
 .intro h3 {
-	margin-top:0;
+	font-size: 25px;
+	font-weight: 400;
+	color: #231F20;
+	line-height: 35px;
+	opacity: 1;
 }
-
+.headler_width {
+	margin: 0 auto;
+	width: 39rem;
+}
 
 /*--------------------------------------*/
 /* 8. Subsections ----------------------*/
@@ -1543,14 +1559,14 @@ label {
 .box_right_border,
 .box_left_border {
 	font-family: Roboto Condensed;
-	line-height: 25px;
-	font-weight: 400;
-	font-size: 18px;
-	color: #414042;
 }
 .box_right_border p,
 .box_left_border p {
 	margin: 1rem 1.2rem;
+	font-weight: 400;
+	font-size: 14px;
+	color: #231F20;
+	opacity: 1;
 }
 .triangle_right {
 	width: 0;
@@ -1577,6 +1593,115 @@ label {
 	font-size: 26px;
 	color: #FFCD05;
 }
+.pagination_prev_next {
 
-
-
+}
+.arrow_left {
+	display: inline-block;
+	line-height: 3.2rem;
+	height: 3.2rem;
+	padding: 0 15px;
+	cursor: pointer;
+	background: url('../images/ar_left.png') no-repeat;
+	background-size: contain;
+}
+.arrow_left:hover {
+	background: url('../images/ar_hover-left.png') no-repeat;
+	background-size: contain;
+}
+.arrow_right {
+	display: inline-block;
+	line-height: 3.2rem;
+	height: 3.2rem;
+	padding: 0 15px;
+	cursor: pointer;
+	background: url('../images/ar_right.png') no-repeat;
+	background-size: contain;
+}
+.arrow_right:hover {
+	background: url('../images/ar_hover-right.png') no-repeat;
+	background-size: contain;
+}
+.super_slider {
+	display: flex;
+	justify-content: center;
+}
+.top_carusel {
+	width: 100%;
+	height: 140%;
+	text-align: center;
+	background: url('../images/phone-03_2x.png') no-repeat;
+	background-size: contain;
+	background-position-y: 10%;
+}
+#owl-demo .item .image_slider{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.item {
+	margin-bottom: 70px;
+}
+.owl-pagination {
+	margin: 0 auto;
+}
+.puzzle_right {
+	background: url('../images/puzzle-02.png') no-repeat top right;
+	background-size: contain;
+}
+.what_is_arts {
+	width: 50%;
+	margin: 0 auto;
+}
+.back_puzzle_left {
+	background: url('../images/puzzle-03.png') no-repeat top left;
+	background-size: contain;
+}
+.phone-04 {
+	margin-top:-30px;
+}
+.inner_paragr {
+	float: right;
+	width: 58%;
+}
+.puzzle_04 {
+	background: url('../images/puzzle-04.png') no-repeat top right;
+	background-size: contain;
+}
+.bottom_middle_puzzle {
+	background: url('../images/puzzle-05.png') no-repeat bottom center;
+	background-size: 14% auto;
+}
+.vertical_line {
+	position: absolute;
+	margin-top:4rem;
+	left: 50%;
+	width:1px;
+	height:200px;
+	background-color: #FFCD05;
+}
+.box_tasks {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.box_tasks p {
+	font-family:Roboto Condensed;
+	color: #231F20;
+	opacity: 1;
+	font-weight: 400;
+	font-size: 18px;
+	padding: 0 26px;
+}
+.line_block_images {
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: flex-end;
+}
+.puzzle_06 {
+	background: url('../images/puzzle-06_2x.png') no-repeat top right;
+	background-size: 20% auto;
+}

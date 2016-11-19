@@ -81,11 +81,10 @@ nav a,
 	color:black
 }
 
-#reviews .owl-theme .owl-controls .owl-page span {border-color:black !important; background: rgba(0,0,0,0)}
+/*#reviews .owl-theme .owl-controls .owl-page span {border-color:black !important; background: rgba(0,0,0,0)}*/
 #reviews .owl-theme .owl-controls .owl-page.active span,
 #reviews .owl-theme .owl-controls.clickable .owl-page:hover span {
-	background: rgba(0,0,0,1);
-	border-color:black !important
+	border-color: #FFCD05 !important
 }
 
 .background_color1 {
@@ -93,7 +92,7 @@ nav a,
 }
 
 .background_color2 {
-	background: #fafafa;
+	background: #f9f9f9;
 }
 
 .review_top_ornament_line {border-top:solid 1px rgba(0,0,0,.1)}

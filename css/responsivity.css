@@ -152,6 +152,24 @@ Responsiveness Fixes
 	.item {
 		margin-bottom: 0;
 	}
+	.puzzle_right {
+		background: none;
+	}
+	.top_carusel {
+		background: none;
+	}
+	.back_puzzle_left {
+		background: none;
+	}
+	.puzzle_04 {
+		background: none;
+	}
+	.puzzle_06 {
+		background: none;
+	}
+	.bottom_middle_puzzle {
+		background: none;
+	}
 	.about_video_player {
 		padding-top: 2rem;
 	}
@@ -208,63 +226,60 @@ Responsiveness Fixes
 	.hero_fullscreen {
     	padding-bottom: 20rem !important; 
 	}
-}
-@media (min-width: 480px) and (max-width: 550px) {
-	#main_content h1 {
-		font-size: 22px;
-		line-height: 24px;
-		font-weight: 700;
-	}
-	#main_content h3 {
-		font-size: 14px;
-		margin-left: 2px;
-	}
-	.top_left_block {
-    	margin-top: 6.4rem;
-    }
-	.cta_button_area {
-		margin: 10px 0;
-	}
-	.want_download {
-		height: 30px;
-		font-size: 11px;
-		border-radius: 6px;
-		padding: 0 1.2rem;
-	}
-	.home_content {
-		padding: 0 4px;
-	}
-	.hero_fullscreen {
-    	padding-bottom: 17rem !important; 
+	.inner_paragr {
+		width: 100%;
 	}
 }
+
 @media (min-width: 320px) and (max-width: 480px) {
+	.hero_fullscreen {
+		padding-bottom: 16% !important;
+	}
+	.header_block {
+	    margin-top: 50px;
+	}
+	.menu_bar {
+    	height: 3.2rem;
+    	padding-top: 0;
+    }
 	.logo {
-		margin-top: -0.7rem;
+		margin-top: 0;
 	}
 	.logo img {
-		max-width: 65px;
+		max-width: 40px;
+	}
+	.smart_block {
+		margin-top: 8px;
 	}
 	#main_content {
 		padding: 0;
 	}
 	#main_content h1 {
-		font-size: 22px;
-		line-height: 30px;
-		font-weight: 700;
-		margin:0;
+		font-family: Roboto Condensed;
+		font-size: 18px;
+	    line-height: 20px;
+	    font-weight: bold;
+	    margin: 0;
+	    width: 71%;
 	}
 	#main_content h3 {
-		font-size: 13px;
+		font-family: Roboto Condensed;
+		font-size: 8px;
+		line-height: 9px;
+		margin: 20px 0 0 2px;
 	}
 	.clock_width {
+		margin-top: 20px;
 		max-width: 10px;
 	}
 	.top_right_block .img_responsive {
 		max-width: 85%;
 	}
+	.image_float {
+		top:-14%;
+	}
 	.cta_button_area {
-		margin: 10px 0;
+		margin: 20px 0;
 	}
 	.want_download {
 		height: 24px;
@@ -272,17 +287,17 @@ Responsiveness Fixes
 		font-size: 10px;
 		border-radius: 4px;
 		padding: 0 1.2rem;
-		box-shadow: 2px 4px 6px 0px rgba(30, 30, 30, 0.2);
+		box-shadow: 1px 1px 4px 0px rgba(30, 30, 30, 0.2);
 	}
 	.want_download:hover {
-		box-shadow: 2px 4px 6px 1px rgba(30, 30, 30, 0.3);
+		box-shadow: 2px 2px 4px 1px rgba(30, 30, 30, 0.3);
 	}
 	h3 {
-		font-size: 20px;
-		margin-bottom: 10px;
+		font-size: 18px;
+		margin: 10px 0;
 	}
 	.intro h2 {
-		font-size: 20px;
+		font-size: 18px;
 		color: #231F20;
 		line-height: 30px;
 		opacity: 1;
@@ -292,32 +307,43 @@ Responsiveness Fixes
 		font-size: 14px;
 		font-weight: 400;
 		color: #231F20;
-		line-height: 20px;
+		line-height: 13px;
 		opacity: 1;
 		margin:5px 0;
 	}
 	.outpadding {
 		padding:0;
 	}
+	#what_is_app.subsection {
+		padding:0;
+	}
+	.box_right_triangle {
+		display: block;
+	}
+	.what_is_arts {
+    	width: 80%;
+    }
 	.phone-04 {
-		margin-top: -54px;
+		margin-top: -16px;
 	}
 	.triangle_box {
 		margin: 4px 0;
+		padding:0 20px;
 	}
 	.image_not_padding {
 		padding:0;
 	}
 	.box_right_border p {
-		font-size: 10px;
-		line-height: 16px;
-		font-weight: 300;
+		font-family: Roboto;
+		font-size: 13px;
+		line-height: 13px;
+		font-weight: 400;
 		margin:0 6px 0 6px;
 	}
 	.box_left_border p {
-		font-size: 10px;
-		line-height: 16px;
-		font-weight: 300;
+		font-size: 13px;
+		line-height: 13px;
+		font-weight: 400;
 		margin:0 6px 0 6px;
 	}
 	.feature_image {
@@ -330,27 +356,36 @@ Responsiveness Fixes
 	.upper_leter {
 		font-family: Roboto Condensed;
 		font-size: 14px;
+		line-height: 13px
+	}
+	.inner_paragr {
+		width: 100%;
+		margin: 2px 0;
 	}
 	.headler_width {
 		width: 100%; 
 	}
 	.puzzle_right {
-		background: url('../images/puzzle-02_2x.png') no-repeat top right;
-		background-size: 20% auto;
+		background: none;
 	}
 	.item {
 		margin-bottom: 0;
 	}
+	.slide_top_text {
+    	width: 100%; 
+   	}
+   	.img_first_slide {
+   		width: 100%
+   	}
 	#owl-demo .item img{
-		max-width: 80px;
+		max-width: 100%;
 	}
 	.top_carusel {
-		background: url('../images/phone-03_2x.png') no-repeat center bottom;
-		background-size: contain;
+		background: none;
 	}
 	.back_puzzle_left {
 		margin-top: 20px;
-		background-size: 18% auto;
+		background: none;
 	}
 	.box_tasks p {
 		font-size: 14px;
@@ -360,7 +395,10 @@ Responsiveness Fixes
 		height: 140px;
 	}
 	.box_tasks h2 {
-		font-size: 18px;
+		font-size: 12px;
+	}
+	.line_block_images img {
+		margin: 0 2px;
 	}
 	.about_video_player {
 		padding-top: 2rem;
@@ -368,14 +406,33 @@ Responsiveness Fixes
 	.effect3:before, .effect3:after {
 		top: 4%;
 	}
+	.puzzle_04 {
+		background: none;
+	}
+	.headler_puzzle_04 {
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.headler_puzzle_04 h3 {
+		width: 80%;
+		margin: 0 auto;
+	}
 	.middle_puzzle {
 		top: -5%;
 	}
-	#teen .subsection {
+	.puzzle_06 {
+		background: none;
+	}
+	.bottom_middle_puzzle {
+		background: none;
+	}
+	#teenerteam.subsection {
 		padding: 10px 0;
 	}
 	.block_slider_text {
 		margin-top: 20px;
+		padding: 0;
 	}
 	.without_margin {
 		margin-top: 0;
@@ -402,14 +459,53 @@ Responsiveness Fixes
 	.footer_logo img {
 		width: 72%;
 	}
+	.footer_logo {
+		box-shadow: none;
+	}
 	.footer_text {
 		padding: 20px 3px 0 0;
 	}
 	.text_partial {
 		padding: 20px 0 0 5px;
+		box-shadow: none;
 	}
 }
+@media (min-width: 480px) and (max-width: 550px) {
+	#what_is_app.subsection {
+		padding-top: 0;
+	}
 
+	#main_content h1 {
+		font-size: 22px;
+		line-height: 24px;
+		font-weight: 700;
+	}
+	#main_content h3 {
+		font-size: 14px;
+		margin-left: 2px;
+	}
+	.top_left_block {
+    	margin-top: 6.4rem;
+    }
+	.cta_button_area {
+		margin: 10px 0;
+	}
+	.want_download {
+		height: 30px;
+		font-size: 11px;
+		border-radius: 6px;
+		padding: 0 1.2rem;
+	}
+	.home_content {
+		padding: 0 4px;
+	}
+	.hero_fullscreen {
+    	padding-bottom: 25% !important; 
+	}
+	.inner_paragr {
+		width: 100%;
+	}
+}
 @media (min-width: 1440px) and (max-width: 1920px) {
 	#more_info {
 		margin-top: 60px;

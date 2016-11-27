@@ -1,13 +1,4 @@
 /*------------------------------------------------------------------
-[Master Stylesheet]
-
-Project:	    SPOT - Landing Page Template
-Version:	    1.0
-Last change:	28/04/2015
-Author:         Mat Przegietka 
--------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------
 [Table of contents]
 
 1.  Helper Classes
@@ -51,7 +42,7 @@ Author:         Mat Przegietka
 .preloader_header {
     position: fixed;
     top: 0;
-    z-index: 100;
+    z-index: 9999;
     min-height: 480px;
     width: 100%;
     height: 100%;
@@ -496,13 +487,14 @@ Author:         Mat Przegietka
 #menu_bar {
 	text-align: center;
 	background-color: #FFCD05;
+	box-shadow: 0 1px 10px #666;
 }
 .menu_bar {
 	height:5.14rem;
 	padding-top:1.7rem;
 	position: fixed;
-	top:0;
-	left: 0;
+	/*top:0;
+	right: 0;*/
 	width: 100%;
 	z-index:1000;
 }
@@ -563,11 +555,11 @@ Author:         Mat Przegietka
 .logo {
 	float:left; 
 	line-height: 0; 
-	margin-top:-0.7rem;
+	margin-top:-1.1rem;
 }
 #menu_bar ul li a {
-	font-family: Roboto Condensed;
-	font-weight: 300;
+	font-family: Roboto;
+	font-weight: 700;
 	font-size: 1rem;
 	color: #fff;
 	padding: 0.6rem 1rem;
@@ -617,7 +609,7 @@ Author:         Mat Przegietka
 }
 
 .cbp-spmenu-vertical {
-	width: 200px;
+	width: 220px;
 	height: 100%;
 	top: 0;
 	z-index: 1001;
@@ -629,7 +621,7 @@ Author:         Mat Przegietka
 }
 
 .cbp-spmenu-right {
-	right: -210px;
+	right: -230px;
 }
 
 .cbp-spmenu-right.cbp-spmenu-open {
@@ -926,6 +918,7 @@ video, object {
 	opacity: 1;
 }
 .intro h3 {
+	font-family: Roboto;
 	font-size: 18px;
 	font-weight: 400;
 	/*font-stretch:condensed;*/
@@ -1500,17 +1493,19 @@ label {
 		color: #fff;
 	}
 }
-.top_left_block {
+.header_block {
 	margin-top: 8rem;
 	text-align: left;
 }
-.top_right_block {
-	position: absolute;
-	margin-top: 5rem;
-	/*margin-right: -2rem;*/
+.header_block h1 {
+	width: 60%;
 }
 .image_float {
-	
+	width: 56%;
+    position: absolute;
+    right: -4%;
+    top: -6%;
+    z-index: 100;
 }
 #more_info {
 	padding: 0;
@@ -1574,6 +1569,7 @@ label {
 .box_right_border p,
 .box_left_border p {
 	margin: 1rem 1.2rem;
+	font-family: Roboto;
 	font-weight: 400;
 	font-size: 14px;
 	color: #231F20;
@@ -1663,7 +1659,7 @@ label {
 	opacity: 1;
 }
 .img_first_slide {
-	width: 40%;
+	width: 50%;
 }
 .owl-pagination {
 	margin: 0 auto;
@@ -1693,6 +1689,10 @@ label {
 .puzzle_04 {
 	background: url('../images/puzzle-04_2x.png') no-repeat top right;
 	background-size: 11% auto;
+}
+.headler_puzzle_04 h3{
+	width: 38%;
+	margin: 0 auto;
 }
 .bottom_middle_puzzle {
 	background: url('../images/puzzle-05_2x.png') no-repeat bottom center;
@@ -1728,9 +1728,15 @@ label {
 	-ms-align-items: center;
 	align-items: flex-end;
 }
+.line_block_images img {
+	margin:0 6px;
+}
 .puzzle_06 {
 	background: url('../images/puzzle-06_2x.png') no-repeat top right;
 	background-size: 17% auto;
+}
+.teener_team {
+	overflow: hidden;
 }
 .teenergizer {
 	font-family:Roboto Condensed;
@@ -1825,7 +1831,15 @@ label {
 	font-size: 26px;
 	margin-bottom: 36px;
 }
-#cta_download img {
+
+#cta_download {
+	position: relative;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	background-color: #FFCD05;
+	z-index: 1000;
+}
+.cta_download_img {
 	position: absolute;
 	width: 9%;
 	top: -12%;
@@ -1860,6 +1874,14 @@ label {
 	padding: 0;
 	height: 100%;
 	box-shadow: -11px 0px 16px -13px rgba(50, 50, 50, 0.5);
+}
+.middle_footer_logo {
+	display: flex;
+	flex-flow: column wrap;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
 }
 .footer_logo img {
 	width:50%;

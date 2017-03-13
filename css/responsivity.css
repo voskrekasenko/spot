@@ -94,6 +94,18 @@ Responsiveness Fixes
 	.feature_image { margin-top:2rem; padding-bottom:3rem;}
 }
 @media (min-width: 768px) and (max-width: 991px) {
+	#artefacts,
+	#what_is_app,
+	#chips,
+	#shelves,
+	#tasks,
+	#video,
+	#teenerteam,
+	#cta_download,
+	#contact {
+		opacity: 1;
+		transition: ease-in 1s;
+	}
 	.logo {
 		margin-top: -1.3rem;
 	}
@@ -135,6 +147,18 @@ Responsiveness Fixes
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
+	#artefacts,
+	#what_is_app,
+	#chips,
+	#shelves,
+	#tasks,
+	#video,
+	#teenerteam,
+	#cta_download,
+	#contact {
+		opacity: 1;
+		transition: ease-in 1s;
+	}
 	.hero_fullscreen.background_solid.solid_01 {
 		background: none;
 		background-color: #FFCD05;
@@ -276,6 +300,18 @@ Responsiveness Fixes
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+	#artefacts,
+	#what_is_app,
+	#chips,
+	#shelves,
+	#tasks,
+	#video,
+	#teenerteam,
+	#cta_download,
+	#contact {
+		opacity: 1;
+		transition: ease-in 1s;
+	}
 	.hero_fullscreen.background_solid.solid_01 {
 		background: none;
 		background-color: #FFCD05;
@@ -588,3 +624,4 @@ Responsiveness Fixes
 	    width: 7%;
 	}
 }
+

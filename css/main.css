@@ -73,6 +73,18 @@
 
 
 /* Animations */
+#artefacts,
+#what_is_app,
+#chips,
+#shelves,
+#tasks,
+#video,
+#teenerteam,
+#cta_download,
+#contact {
+	opacity: 0;
+	transition: ease-in 1s;
+}
 /* Initial animation of header elements */
 
 .loading .preloader_loader {
@@ -990,6 +1002,8 @@ video, object {
 /*-- about - video --*/
 
 .about_video_player iframe {
+	position: relative;
+	z-index: 9999;
 	border: solid 0.8rem white;
 }
 
